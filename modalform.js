@@ -62,7 +62,7 @@ let Adding=()=>{
       let Poradok=UrlNumber;
       TrashBag.style.cursor="pointer";
       TrashBag.style.position="absolute";
-      TrashBag.src="Style/Changed.png";
+      TrashBag.src="Changed.png";
       TrashBag.style.marginLeft="17vw";
       TrashBag.style.marginTop="1vh";
       TrashBag.onclick=function () {
