@@ -56,7 +56,7 @@ let push =()=>{
         let BackArrowImage=document.createElement("img");
         BackArrowImage.id="BackArrowImage";
         BackArrowImage.style.cursor="pointer";
-        BackArrowImage.src="Style/BackarrowIma.png";
+        BackArrowImage.src="BackarrowIma.png";
         BackArrowImage.style.marginTop="42vh";
         BackArrowImage.style.marginLeft="-3vw";
         BackArrowImage.style.position="absolute";
@@ -106,7 +106,7 @@ let push =()=>{
                 };
                 Trashcannon.style.cursor="pointer";
                 Trashcannon.style.position="absolute";
-                Trashcannon.src="Style/Changed.png";
+                Trashcannon.src="Changed.png";
                 document.getElementById("DEV"+Classic).appendChild(Trashcannon);
             }
             else {}
@@ -126,7 +126,7 @@ let close=()=>{
         let ArrowImage=document.createElement("img");
         ArrowImage.style.cursor="pointer";
         ArrowImage.id="Rightarrow";
-        ArrowImage.src="Style/ver1.png";
+        ArrowImage.src="ver1.png";
         ArrowImage.style.marginTop="2vh";
         ArrowImage.style.marginLeft="1vw";
         ArrowImage.style.position="absolute";
